@@ -1,0 +1,81 @@
+.profile-image{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.restaurant-details{
+  width: 100%;
+  display: flex;
+}
+
+.restaurant-names{
+  width: 20%;
+
+  display: inline-block;
+  /* justify-content: space-around; */
+}
+
+.restaurant-cusines{
+  width: 70%;
+  display: inline-block;
+}
+.restaurant-names button{
+  margin: 5px 0;
+  display: block;
+}
+
+.cusines-categories{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.active{
+  text-decoration: underline;
+}
+
+.cusine-category-link{
+  text-decoration: none;
+  color: black;
+}
+
+.cusine-category-link:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.restaurant-names-link{
+  text-decoration: none;
+  color: black;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.restaurant-name-btn{
+  background-color: white;
+  border: 0;
+  width: 100%;
+}
+
+.isActive{
+  background-color: orange;
+}
+
+.cart-name{
+  position: relative;
+}
+
+.cart-length{
+  position: absolute;
+  top: -2px;
+  height: 12px;
+  width: 12px;
+  right: -11px;
+  background-color: blue;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
