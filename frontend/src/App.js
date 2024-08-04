@@ -18,7 +18,7 @@ function App() {
 
     getTodos();
 
-  })
+  }, [])
   return (
     <div className="App">
       Hello World
