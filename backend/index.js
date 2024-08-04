@@ -5,6 +5,10 @@ const PORT = process.env.PORT || 4444;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: "4kb" }));
+app.use(cors({
+    origin: process.env.CORS_ORIGINS,
+    credentials: true
+}))
 
 let todos = [
     "Cricket", "Dance", "Sing", "Coding"
