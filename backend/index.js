@@ -7,7 +7,9 @@ const PORT = process.env.PORT || 4444;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: "4kb" }));
 app.use(cors({
-    origin: ["https://todos-frontend-fawn.vercel.app"],
+    origin: ["https://augdeploy-kartik-mathurs-projects.vercel.app",
+        "https://augdeploy.vercel.app",
+        "http://localhost:3000"],
     credentials: true
 }))
 
